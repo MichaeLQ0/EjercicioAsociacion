@@ -15,6 +15,16 @@ public class App {
 
         //INTENTO DE TOMAR OTRO LIBRO SIN DEVOLVER OTRO
         System.out.println();
+        System.out.println();
+        lector1.tomarPrestado(libro2);
+
+         System.out.println();
+        lector1.devolverLibro();
+        lector1.tomarPrestado(libro2);
+
+        System.out.println();
+        lector1.mostrarEstado();
+        lector2.mostrarEstado();
 
     }
 }
